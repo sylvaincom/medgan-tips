@@ -52,5 +52,3 @@ with open('output1.csv', 'w') as csvFile:
 csvFile.close()
  ```
 This will create a `output1.csv` file in the `medgan-master` folder.
-
-$y = ax+b$
