@@ -2,7 +2,7 @@
 
 Here is the link to Edward Choi's `medgan` on GitHub: https://github.com/mp2893/medgan. Congrats to his excellent work.
 
-In this markdown, I add a few very basic details that can help run `medgan`. My specs: Windows 10. I would like to thank [@ZwAnto](https://github.com/ZwAnto) for his advice. The goal here is just to run it, not to obtain useful results: we try to minimize the computing time.
+In this markdown, I add a few very basic details that complete Choi's README and can help run `medgan`. My specs: Windows 10. I would like to thank [@ZwAnto](https://github.com/ZwAnto) for his advice. The goal here is just to run it, not to obtain useful results: we try to minimize the computing time.
 
 ### 1) Process the MIMIC-III dataset with `process_mimic.py`.
 
