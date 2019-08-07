@@ -51,4 +51,4 @@ with open('output1.csv', 'w') as csvFile:
     writer.writerows(data)
 csvFile.close()
  ```
-This will create a `output.csv` file in the `medgan-master` folder.
+This will create a `output1.csv` file in the `medgan-master` folder.
