@@ -43,9 +43,9 @@ This will create 32 files in our `generated` folder: `checkpoint`, `samples`, `s
 
 We use the command:
 ```
-python medgan.py training-data.matrix samples --model_file=./generated/samples-9 --generate_data=True
+python medgan.py training-data.matrix gen-samples --model_file=./generated/samples-9 --generate_data=True
  ```
-Instead of 9, we take the last epoch (here we took 10 epochs starting from the index 0). This will create the `samples.npy` file in the `medgan-master` folder.
+Instead of 9, we take the last epoch (here we took 10 epochs starting from the index 0). This will create the `gen-samples.npy` file in the `medgan-master` folder.
 
 In order to obain a csv file, we can execute the following script in Python:
 ```
@@ -53,7 +53,7 @@ import numpy as np
 import os
 os.getcwd()
 os.chdir('C:\\Users\\myusername\\Documents\\medgan-master')
-data = np.load('samples.npy')
+data = np.load('gen-samples.npy')
 
 import csv
 with open('samples.csv', 'w') as csvFile:
