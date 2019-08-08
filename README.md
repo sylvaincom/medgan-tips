@@ -1,4 +1,4 @@
-# A few additional basic tips on how to run Edward Choi's `medgan`
+# A few additional basic tips on how to run Edward Choi's medGAN
 
 Here is the link to Edward Choi's medGAN on GitHub: https://github.com/mp2893/medgan. Congrats to his excellent work.
 
