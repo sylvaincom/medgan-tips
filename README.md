@@ -61,4 +61,4 @@ with open('gen-samples.csv', 'w') as csvFile:
     writer.writerows(data)
 csvFile.close()
  ```
-This will create a `samples.csv` file in the `medgan-master` folder.
+This will create a `gen-samples.csv` file in the `medgan-master` folder.
