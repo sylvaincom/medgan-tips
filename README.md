@@ -52,11 +52,11 @@ In order to obain a csv file, we can execute the following script in Python:
 import numpy as np
 import os
 os.getcwd()
-os.chdir('C:\\Users\\myusername\\Documents\\medgan-master')
+os.chdir('C:\\Users\\SYCB_CB\\Documents\\medgan-master')
 data = np.load('gen-samples.npy')
 
 import csv
-with open('samples.csv', 'w') as csvFile:
+with open('gen-samples.csv', 'w') as csvFile:
     writer = csv.writer(csvFile)
     writer.writerows(data)
 csvFile.close()
