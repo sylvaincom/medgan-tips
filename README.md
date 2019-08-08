@@ -1,6 +1,6 @@
 # A few additional basic tips on how to run Edward Choi's medGAN
 
-Here is the link to Edward Choi's medGAN repository on GitHub: https://github.com/mp2893/medgan. Congrats to his excellent work.
+Here is the link to Edward Choi's medGAN repository on GitHub: [link](https://github.com/mp2893/medgan). Congrats to his excellent work.
 
 In this markdown, I add a few very basic details that complete Choi's `README.md` and can help run medGAN. My specs: Windows 10. I would like to thank [@ZwAnto](https://github.com/ZwAnto) for his assistance. The goal of this markdown is just to run medGAN and not to obtain useful results: we try to minimize the computing time at the cost of having poorly realistic generated samples.
 
@@ -26,7 +26,7 @@ This will create 3 files in our folder: `training-data.matrix`, `training-data.p
 
 With the command `python medgan.py --help`, we can see all the parameters we can choose.
 
-Please read the NumPy version issue I added on Edward Choi's GitHub: https://github.com/mp2893/medgan/issues/14.
+Please read the NumPy version issue I added on Edward Choi's GitHub: [link](https://github.com/mp2893/medgan/issues/14).
 
 Still with the command prompt, we create a `generated` folder in our `medgan-master` folder:
 ```
