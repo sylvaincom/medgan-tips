@@ -37,7 +37,7 @@ Then we use the command:
 python medgan.py training-data.matrix ./generated/samples --data_type="binary" --n_epoch=10 --n_pretrain_epoch=10
 ```
 Once again, the goal here is just to run medGAN, not to obtain useful results: we try to minimize the computing time by taking small values for `n_epoch` and `n_pretrain_epoch`.
-This will create 32 files in our `generated` folder: `checkpoint`, `samples`, `samples-0.data-00000-of-00001`, `samples-0.index`, `samples-0.meta`, `samples-1.data-00000-of-00001`,  etc.
+This will create 32 files in our `generated` folder: `checkpoint`, `samples`, `samples-0.data-00000-of-00001`, `samples-0.index`, `samples-0.meta`, `samples-1.data-00000-of-00001`,  etc. In `samples.txt`, we can check the values of `d_loss`, `g_loss`, `accuracy` and `AUC` at each epoch.
 
 ## 3) Generate synthetic records.
 
