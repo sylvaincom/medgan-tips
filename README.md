@@ -28,9 +28,9 @@ With the command `python medgan.py --help`, we can see all the parameters we can
 
 Please read the NumPy version issue I added on Edward Choi's GitHub: https://github.com/mp2893/medgan/issues/14.
 
-In our `medgan-master` folder, we create a `samples` folder. Then we use the command:
+In our `medgan-master` folder, we create a `generated` folder. Then we use the command:
 ```
-python medgan.py training-data.matrix ./samples/samples --data_type="binary" --n_epoch=10 --n_pretrain_epoch=10
+python medgan.py training-data.matrix ./generated/samples --data_type="binary" --n_epoch=10 --n_pretrain_epoch=10
 ```
 Once again, the goal here is just to run medGAN, not to obtain useful results: we try to minimize the computing time by taking small values for `n_epoch` and `n_pretrain_epoch`.
 This will create 32 files in our `train` folder: `checkpoint`, `test`, `test-0.data-00000-of-00001`, `test-0.index` etc.
@@ -39,7 +39,7 @@ This will create 32 files in our `train` folder: `checkpoint`, `test`, `test-0.d
 
 We use the command:
 ```
-python medgan.py training-data.matrix samples --model_file=./samples/samples-9 --generate_data=True
+python medgan.py training-data.matrix samples --model_file=./generated/samples-9 --generate_data=True
  ```
 Instead of 9, we take the last epoch (here we took 10 epochs starting from the index 0). This will create the `samples.npy` file in the `medgan-master` folder.
 
