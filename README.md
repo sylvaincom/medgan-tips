@@ -5,7 +5,7 @@ Here is the link to Edward Choi's medGAN repository on GitHub: https://github.co
 In this markdown, I add a few very basic details that complete Choi's `README.md` and can help run medGAN. My specs: Windows 10. I would like to thank [@ZwAnto](https://github.com/ZwAnto) for his assistance. The goal of this markdown is just to run medGAN and not to obtain useful results: we try to minimize the computing time at the cost of having poorly realistic generated samples.
 
 Edward Choi's `medgan` repository is composed of two programs that have since been updated for Python 3:
-* `process_mimic.py` (124 lines) inputs the public MIMIC-III dataset and outputs a suitable training dataset for `medgan.py`
+* `process_mimic.py` (124 lines) inputs the public MIMIC-III dataset and outputs a suitable training dataset for `medgan.py`,
 * `medgan.py` (410 lines) inputs the output of `process_mimic.py` and outputs the generated (fake) multi-label discrete patient records.
 
 ### 1) Process the MIMIC-III dataset with `process_mimic.py`.
