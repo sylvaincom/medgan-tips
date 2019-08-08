@@ -1,12 +1,12 @@
 # A few additional basic tips on how to run Edward Choi's `medgan`
 
-Here is the link to Edward Choi's `medgan` on GitHub: https://github.com/mp2893/medgan. Congrats to his excellent work.
+Here is the link to Edward Choi's medGAN on GitHub: https://github.com/mp2893/medgan. Congrats to his excellent work.
 
-In this markdown, I add a few very basic details that complete Choi's `README.md` and can help run `medgan`. My specs: Windows 10. I would like to thank [@ZwAnto](https://github.com/ZwAnto) for his advice. The goal here is just to run it, not to obtain useful results: we try to minimize the computing time.
+In this markdown, I add a few very basic details that complete Choi's `README.md` and can help run medGAN. My specs: Windows 10. I would like to thank [@ZwAnto](https://github.com/ZwAnto) for his assistance. The goal of this markdown is just to run `medgan` and not to obtain useful results: we try to minimize the computing time at the cost of having poorly realistic generated samples.
 
 ### 1) Process the MIMIC-III dataset with `process_mimic.py`.
 
-First, we need to open _Anaconda Navigator_, then go to _Environments_, click on the right triangle next to _base (root)_ and _Open Terminal_: this opens a command prompt with the following path: `(base) C:\Users\myusername>`.
+First of all, we need to open _Anaconda Navigator_, then go to _Environments_, click on the right triangle next to _base (root)_ and _Open Terminal_: this opens a command prompt with the following path: `(base) C:\Users\myusername>`.
 
 In the command prompt, we change the directory to the folder where `ADMISSIONS.csv` and `DIAGNOSES_ICD.csv` from the MICMIC-III dataset (we only need these two) and the python codes are saved:
 ```
@@ -26,7 +26,7 @@ In our `medgan-master` folder, we create a `train` folder. Then we use the comma
 ```
 python medgan.py test1.matrix ./train/test --data_type="binary" --n_epoch=10 --n_pretrain_epoch=10
 ```
-Once again, the goal here is just to run `medgan`, not to obtain useful results: we try to minimize the computing time by taking small values for `n_epoch` and `n_pretrain_epoch`.
+Once again, the goal here is just to run medGAN, not to obtain useful results: we try to minimize the computing time by taking small values for `n_epoch` and `n_pretrain_epoch`.
 This will create 32 files in our `train` folder: `checkpoint`, `test`, `test-0.data-00000-of-00001`, `test-0.index` etc.
 
 ### 3) Generate synthetic records.
