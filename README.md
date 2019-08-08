@@ -28,7 +28,7 @@ With the command `python medgan.py --help`, we can see all the parameters we can
 
 Please read the NumPy version issue I added on Edward Choi's GitHub: https://github.com/mp2893/medgan/issues/14.
 
-In our `medgan-master` folder, we create a `generated` folder. Then we use the command:
+*In our `medgan-master` folder, we create a `generated` folder.* Then we use the command:
 ```
 python medgan.py training-data.matrix ./generated/samples --data_type="binary" --n_epoch=10 --n_pretrain_epoch=10
 ```
