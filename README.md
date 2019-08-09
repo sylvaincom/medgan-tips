@@ -10,11 +10,11 @@ Edward Choi's `medgan` repository is composed of two programs that have since be
 
 ## 1) Process the MIMIC-III dataset with `process_mimic.py`.
 
-First of all, we need to open _Anaconda Navigator_, then go to _Environments_, click on the right triangle next to _base (root)_ and _Open Terminal_: this opens a command prompt with the following path: `(base) C:\Users\<myusername>`.
+First of all, we need to open _Anaconda Navigator_, then go to _Environments_, click on the right triangle next to _base (root)_ and _Open Terminal_: this opens a command prompt with the following path: `(base) C:\Users\<username>`.
 
 In the command prompt, we change the directory to the folder where `ADMISSIONS.csv` and `DIAGNOSES_ICD.csv` from the MICMIC-III dataset (we only need these two) and the python codes are saved:
 ```
-cd C:\Users\<myusername>\Documents\medgan-master
+cd C:\Users\<username>\Documents\medgan-master
 ```
 Still in the command prompt, we can then process the MIMIC-III dataset:
 ```
@@ -53,7 +53,7 @@ In order to obain a csv file, we can execute the following script in Python:
 import numpy as np
 import os
 os.getcwd()
-os.chdir('C:\\Users\\SYCB_CB\\Documents\\medgan-master')
+os.chdir('C:\\Users\\<username>\\Documents\\medgan-master')
 data = np.load('gen-samples.npy')
 
 import csv
