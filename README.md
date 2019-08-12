@@ -1,8 +1,8 @@
 # A few additional basic tips on how to run Edward Choi's medGAN
 
-Here is the link to Edward Choi's medGAN repository on GitHub: [link](https://github.com/mp2893/medgan). Congrats to his excellent work.
+In this markdown, I add a few very basic tips that complete [Edward Choi](https://github.com/mp2893/)'s `README.md` of his [medGAN repository](https://github.com/mp2893/medgan). Congrats to Edward's excellent work! I would like to thank [Antoine Hamon](https://github.com/ZwAnto) for his help.
 
-In this markdown, I add a few very basic details that complete Choi's `README.md` and can help run medGAN. My specs: Windows 10. I would like to thank [@ZwAnto](https://github.com/ZwAnto) for his assistance. The goal of this markdown is just to run medGAN and not to obtain useful results: we try to minimize the computing time at the cost of having poorly realistic generated samples.
+The goal of this markdown is just to run medGAN and not to obtain useful results: we try to minimize the computing time at the cost of having poorly realistic generated samples. My specs: Windows 10.
 
 Edward Choi's `medgan` repository is composed of two programs that have since been updated for Python 3:
 * `process_mimic.py` (124 lines) inputs the public MIMIC-III dataset and outputs a suitable training dataset for `medgan.py`,
@@ -66,4 +66,4 @@ This will create a `gen-samples.csv` file in the `medgan-master` folder.
 
 ## 4) How to interpret `gen-samples.npy`?
 
-Please check this [issue](https://github.com/mp2893/medgan/issues/3) from Choi's GitHub.
+Please check this [issue](https://github.com/mp2893/medgan/issues/3) from Edward Choi's GitHub.
