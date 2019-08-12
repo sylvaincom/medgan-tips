@@ -63,3 +63,7 @@ with open('gen-samples.csv', 'w') as csvFile:
 csvFile.close()
  ```
 This will create a `gen-samples.csv` file in the `medgan-master` folder.
+
+## 4) How to interpret `gen-samples.npy`?
+
+Please check this [issue](https://github.com/mp2893/medgan/issues/3) from Choi's GitHub.
