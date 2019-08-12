@@ -1,6 +1,6 @@
-# A few additional basic tips on how to run Edward Choi's medGAN
+# A few additional tips on how to run Edward Choi's medGAN
 
-In this markdown, I add a few very basic tips that complete [Edward Choi](https://github.com/mp2893/)'s `README.md` of his [medGAN repository](https://github.com/mp2893/medgan). Congrats to Edward's excellent work! I would like to thank [Antoine Hamon](https://github.com/ZwAnto) for his help.
+In this markdown, I add a few tips that complete [Edward Choi](https://github.com/mp2893/)'s `README.md` of his [medGAN repository](https://github.com/mp2893/medgan). Congrats to Edward's excellent work! I would like to thank [Antoine Hamon](https://github.com/ZwAnto) for his help.
 
 The goal of this markdown is just to run medGAN and not to obtain useful results: we try to minimize the computing time at the cost of having poorly realistic generated samples. My specs: Windows 10.
 
