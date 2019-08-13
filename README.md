@@ -26,7 +26,7 @@ This will create 3 files in our folder: `training-data.matrix`, `training-data.p
 
 With the command `python medgan.py --help`, we can see all the parameters we can choose.
 
-Please read the NumPy version issue I added on Edward Choi's medGAN repository: [link](https://github.com/mp2893/medgan/issues/14).
+Please read the NumPy version [issue]((https://github.com/mp2893/medgan/issues/14)) I added on Edward Choi's medGAN repository.
 
 Still with the command prompt, we create a `generated` folder in our `medgan-master` folder:
 ```
