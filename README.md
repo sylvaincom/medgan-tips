@@ -10,4 +10,4 @@ medGAN is a generative adversarial network (GAN) for generating electronic healt
 	Machine Learning for Healthcare (MLHC) 2017
 
 ### My own `medgan` repository's contents:
-* [A few additional tips on how to run Edward Choi's medGAN](https://github.com/sylvaincom/medgan/blob/master/tips-for-medgan.md): In this markdown, I add a few tips that complete Edward Choi's `README.md` of his medGAN repository.
+* `tips-for-medgan.md`: [A few additional tips on how to run Edward Choi's medGAN](https://github.com/sylvaincom/medgan/blob/master/tips-for-medgan.md). In this markdown, I add a few tips that complete Edward Choi's `README.md` of his medGAN repository.
