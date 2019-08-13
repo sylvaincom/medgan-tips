@@ -5,5 +5,5 @@ In this repository, I share my own work that is based on [Edward Choi](https://g
 
 medGAN is a generative adversarial network (GAN) for generating electronic health records (EHR).
 
-#### My own `medgan` repository's contents:
+## My own `medgan` repository's contents:
 * [A few additional tips on how to run Edward Choi's medGAN](https://github.com/sylvaincom/medgan/blob/master/tips-for-medgan.md): In this markdown, I add a few tips that complete Edward Choi's `README.md` of his medGAN repository.
