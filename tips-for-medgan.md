@@ -42,6 +42,8 @@ Once again, the goal here is just to run medGAN, not to obtain useful results: w
 This will create 32 files in our `generated` folder: `checkpoint`, `samples`, `samples-0.data-00000-of-00001`, `samples-0.index`, `samples-0.meta`, `samples-1.data-00000-of-00001`,  etc. In `samples.txt`, we can check the values of `d_loss`, `g_loss`, `accuracy` and `AUC` at each epoch.
 For comparison, the default value of `n_epoch` is 1000 and the default value of `n_pretrain_epoch` is 100.
 
+Note that `training-data.matrix` must contain no missing values.
+
 ## 3) Generate synthetic records.
 
 We use the command:
