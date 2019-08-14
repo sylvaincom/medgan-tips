@@ -10,7 +10,9 @@ Edward Choi's `medgan` repository is composed of two programs that have since be
 
 ## 1) Process the MIMIC-III dataset with `process_mimic.py`.
 
-First of all, we need to open _Anaconda Navigator_, then go to _Environments_, click on the right triangle next to _base (root)_ and _Open Terminal_: this opens a command prompt with the following path: `(base) C:\Users\<username>`.
+For this first step, we assume that you have already download the MIMIC-III dataset. Otherwise, some tutorials such as [Getting access to MIMIC III hospital database for data science projects](https://towardsdatascience.com/getting-access-to-mimic-iii-hospital-database-for-data-science-projects-791813feb735) provide helpful advice.
+
+We need to open _Anaconda Navigator_, then go to _Environments_, click on the right triangle next to _base (root)_ and _Open Terminal_: this opens a command prompt with the following path: `(base) C:\Users\<username>`.
 
 In the command prompt, we change the directory to the folder where `ADMISSIONS.csv` and `DIAGNOSES_ICD.csv` from the MICMIC-III dataset (we only need these two) and the python codes are saved:
 ```
