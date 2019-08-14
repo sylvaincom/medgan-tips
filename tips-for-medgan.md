@@ -52,22 +52,6 @@ python medgan.py training-data.matrix gen-samples --model_file=./generated/sampl
  ```
 Instead of 9, we take the last epoch (here we took 10 epochs starting from the index 0). This will create the `gen-samples.npy` file in the `medgan-master` folder.
 
-In order to obain a csv file, we can execute the following script in Python:
-```python
-import numpy as np
-import os
-os.getcwd()
-os.chdir('C:\\Users\\<username>\\Documents\\medgan-master')
-data = np.load('gen-samples.npy')
-
-import csv
-with open('gen-samples.csv', 'w') as csvFile:
-    writer = csv.writer(csvFile)
-    writer.writerows(data)
-csvFile.close()
- ```
-This will create a `gen-samples.csv` file in the `medgan-master` folder.
-
 ## 4) How to interpret `gen-samples.npy`?
 
 Please check this [issue](https://github.com/mp2893/medgan/issues/3) from Edward Choi's GitHub.
