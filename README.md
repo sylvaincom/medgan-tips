@@ -10,9 +10,9 @@ medGAN is a generative adversarial network (GAN) for generating electronic healt
 	Machine Learning for Healthcare (MLHC) 2017
 
 I opened a few pull requests on Edward Choi's medGAN:
-1. [Fixing an error due to version 1.16.3 of NumPy](https://github.com/mp2893/medgan/pull/15): merged and closed.
-2. [Fixing an error when running step 2-3 with count variables](https://github.com/mp2893/medgan/pull/17): open.
+* [Fixing an error due to version 1.16.3 of NumPy](https://github.com/mp2893/medgan/pull/15): merged and closed.
+* [Fixing an error when running step 2-3 with count variables](https://github.com/mp2893/medgan/pull/17): open.
 
 ### My own `medgan` repository's table of contents:
-1. `01_tips-for-medgan.md`: [A few additional tips on how to run Edward Choi's medGAN](https://github.com/sylvaincom/medgan-tips/blob/master/01_tips-for-medgan.md). In this markdown, I add a few tips that complete Edward Choi's `README.md` of his medGAN repository.
-2. `02_how-medgan-binary-works.ipynb`: [Understanding how medGAN works (wtih binary variables)](https://github.com/sylvaincom/medgan-tips/blob/master/02_how-medgan-binary-works.ipynb). In this notebook, I provide a few code cells and explanations that can help better understand and run medGAN on binary variables.
+* `01_tips-for-medgan.md`: [A few additional tips on how to run Edward Choi's medGAN](https://github.com/sylvaincom/medgan-tips/blob/master/01_tips-for-medgan.md). In this markdown, I add a few tips that complete Edward Choi's `README.md` of his medGAN repository.
+* `02_how-medgan-binary-works.ipynb`: [Understanding how medGAN works (wtih binary variables)](https://github.com/sylvaincom/medgan-tips/blob/master/02_how-medgan-binary-works.ipynb). In this notebook, I provide a few code cells and explanations that can help better understand and run medGAN on binary variables.
