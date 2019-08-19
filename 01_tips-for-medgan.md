@@ -54,4 +54,4 @@ Instead of 9, we take the last epoch (here we took 10 epochs starting from the i
 
 ## 4) How to interpret `gen-samples.npy`?
 
-Please check this [issue](https://github.com/mp2893/medgan/issues/3) from Edward Choi's GitHub.
+Please check this [issue](https://github.com/mp2893/medgan/issues/3) from Edward Choi's GitHub and the rest of the documents of my [`medgan-tips` repository](https://github.com/sylvaincom/medgan-tips).
