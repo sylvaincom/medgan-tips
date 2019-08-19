@@ -48,7 +48,7 @@ Note that `training-data.matrix` must contain no missing values.
 
 We use the command:
 ```
-python medgan.py training-data.matrix gen-samples --model_file=./generated/samples-9 --generate_data=True
+python medgan.py training-data.matrix gen-samples --model_file=./generated/samples-9 --generate_data=True --data_type="binary"
  ```
 Instead of 9, we take the last epoch (here we took 10 epochs starting from the index 0). This will create the `gen-samples.npy` file in the `medgan-master` folder.
 
