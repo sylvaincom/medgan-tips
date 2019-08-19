@@ -4,6 +4,8 @@ In this markdown, I add a few tips that complete [Edward Choi](https://github.co
 
 The goal of this markdown is just to run medGAN and not to obtain useful results: we try to minimize the computing time at the cost of having poorly realistic generated samples. My specs: Windows 10.
 
+In this example, we use binary variables (and not count variables).
+
 Edward Choi's `medgan` repository is composed of two programs that have since been updated for Python 3:
 * `process_mimic.py` (124 lines) inputs the public MIMIC-III dataset and outputs a suitable training dataset for `medgan.py`,
 * `medgan.py` (410 lines) inputs the output of `process_mimic.py` and outputs the generated (fake) multi-label discrete patient records.
