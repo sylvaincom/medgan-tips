@@ -10,7 +10,7 @@ medGAN is a generative adversarial network (GAN) for generating electronic healt
 	Machine Learning for Healthcare (MLHC) 2017
 
 I opened a few pull requests on Edward Choi's medGAN repository:
-* [Fixing an error due to version 1.16.3 of NumPy](https://github.com/mp2893/medgan/pull/15): merged and closed. This pull request was following this [issue](https://github.com/mp2893/medgan/issues/14).
+* [Fixing an error due to version 1.16.3 of NumPy](https://github.com/mp2893/medgan/pull/15): merged and closed (following this [issue](https://github.com/mp2893/medgan/issues/14) I opened).
 * [Fixing an error when running step 2-3 with count variables](https://github.com/mp2893/medgan/pull/17): merged and closed.
 
 ### My own `medgan` repository's table of contents:
