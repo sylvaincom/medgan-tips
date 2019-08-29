@@ -1,4 +1,4 @@
-# A few additional tips on how to run Edward Choi's medGAN
+# Additional tips on how to run Edward Choi's medGAN
 
 In this markdown, I add a few tips that complete [Edward Choi](https://github.com/mp2893/)'s `README.md` of his [medGAN repository](https://github.com/mp2893/medgan). Congrats to Edward's excellent work! I would like to thank [Antoine Hamon](https://github.com/ZwAnto) for his help.
 
