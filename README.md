@@ -12,6 +12,14 @@ I opened a few pull requests on Edward Choi's medGAN repository:
 * [Fixing an error due to version 1.16.3 of NumPy](https://github.com/mp2893/medgan/pull/15): merged and closed (following this [issue](https://github.com/mp2893/medgan/issues/14) I opened).
 * [Fixing an error when running step 2-3 with count variables](https://github.com/mp2893/medgan/pull/17): merged and closed.
 
+_Note:_ My report will be uploaded by March 2020.
+
+## Abstract
+
+In the first chapter, we do a general presentation on **GANs**, in particular how they work. GANs are a revolutionary generative model invented by Ian Goodfellow in 2014. The key idea behind GANs is to have two neural networks competing against each other: the generator and the discriminator. GANs can synthesize samples that are impressively realistic.
+
+In the second chapter, we apply GANs to patient data. The method is called **medGAN** (for medical GAN) and was developed by Edward Choi in 2018. medGAN can only synthesize binary or count values. There are two main applications of medGAN: privacy and dataset augmentation. We only focus on dataset augmentation from a real-life dataset, we generate fictitious yet realistic samples that can then be concatenated with the real-life dataset into an augmented dataset (that has more samples). Training a predictive model on the augmented dataset rather than on the real-life dataset can boost the prediction score (if the generated data is realistic enough).
+
 ## My own `medgan` repository's table of contents
 
 * `01_tips-for-medgan.md`: [Additional explanations on how to run Edward Choi's medGAN](https://github.com/sylvaincom/medgan-tips/blob/master/01_tips-for-medgan.md). In this markdown, I add explanations that complete Edward Choi's `README.md` of his medGAN repository.
