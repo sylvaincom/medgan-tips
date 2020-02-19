@@ -14,6 +14,15 @@ I opened a few pull requests on Edward Choi's medGAN repository:
 
 _Note:_ My report will be uploaded by March 2020.
 
+## Quick review
+
+- _Author_: Sylvain Combettes
+- _Topic_: Generating fictitious realistic patient data in order to boost the prediction score [synthesis, dataset augmentation].
+- _Method_: Combining GANs (generative adversarial networks) with autoencoders [implicit density estimation].
+- _Programming_: Python.
+- _Result_: the prediction score can be increased by more than 5% on binary values.
+- _Links_: [[5 pages synthetic report](https://sylvaincom.github.io/docs/medgan_report_synthetic.pdf)] [full report incoming] [slides incoming]
+
 ## Abstract
 
 In the first chapter, we do a general presentation on **GANs**, in particular how they work. GANs are a revolutionary generative model invented by Ian Goodfellow in 2014. The key idea behind GANs is to have two neural networks competing against each other: the generator and the discriminator. GANs can synthesize samples that are impressively realistic.
@@ -26,4 +35,4 @@ In the second chapter, we apply GANs to patient data. The method is called **med
 * `02_how-medgan-binary-works.ipynb`: [Understanding how medGAN works on the MIMIC-III dataset of shape (46 520, 1 071) with binary values](https://github.com/sylvaincom/medgan-tips/blob/master/02_how-medgan-binary-works.ipynb). In this notebook, I provide code cells and explanations to help better understand and run medGAN (on binary values). I also measure the accuracy of the fake generated dataset comparing to the real-life original one.
 * `03_how-medgan-count-works.ipynb`: [Understanding how medGAN works (with count features)](https://github.com/sylvaincom/medgan-tips/blob/master/03_how-medgan-count-works.ipynb). In this notebook, I provide code cells and explanations that can help better understand and run medGAN on count features.
 * `04_accuracy-medgan-binary-small.ipynb`: [Using medGAN on the MIMIC-III dataset of shape (1000, 100) with binary values](https://github.com/sylvaincom/medgan-tips/blob/master/04_accuracy-medgan-binary-small.ipynb). This is shorter version of `02_how-medgan-binary-works.ipynb`: we only sample from a dataset of shape (1000, 100) instead of (46520, 1071) and check the accuracy.
-* `05_prediction-augmentation.ipynb`: [Using medGAN to boost the prediction score with data augmentation on the MIMIC-III dataset of shape (1000, 100) with binary values](https://github.com/sylvaincom/medgan-tips/blob/master/05_prediction-augmentation.ipynb). In this notebook, I use `medGAN` to perform data augmentation, thus to boost prediction performance. Spoiler: it works.
+* `05_prediction-augmentation.ipynb`: [Using medGAN to boost the prediction score with data augmentation on the MIMIC-III dataset of shape (1000, 100) with binary values](https://github.com/sylvaincom/medgan-tips/blob/master/05_prediction-augmentation.ipynb). In this notebook, I use `medGAN` to perform data augmentation, thus to boost prediction performance. Spoiler: it works (under some conditions).
