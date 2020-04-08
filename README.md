@@ -21,7 +21,7 @@ I opened a few pull requests on Edward Choi's medGAN repository:
 - _Method_: Combining GANs (generative adversarial networks) with autoencoders [implicit density estimation].
 - _Programming_: Python.
 - _Result_: The prediction score can be increased by more than 5% on binary values.
-- _Links_: [[5 pages synthetic report](https://sylvaincom.github.io/docs/medgan_report_synthetic.pdf)] [[full 62 pages report](https://sylvaincom.github.io/docs/medgan_report.pdf)] [slides incoming]
+- _Links_: [[5 pages synthetic report](https://sylvaincom.github.io/docs/medgan_report_synthetic.pdf)] [[full 62 pages report](https://sylvaincom.github.io/docs/medgan_report.pdf)] [[slides](https://sylvaincom.github.io/docs/medgan_slides.pdf)]
 
 ## Abstract
 
