@@ -12,7 +12,7 @@ I opened a few pull requests on Edward Choi's medGAN repository:
 * [Fixing an error due to version 1.16.3 of NumPy](https://github.com/mp2893/medgan/pull/15): merged and closed (following this [issue](https://github.com/mp2893/medgan/issues/14) I opened).
 * [Fixing an error when running step 2-3 with count variables](https://github.com/mp2893/medgan/pull/17): merged and closed.
 
-## Quick prereview
+## Quick preview
 
 - _Author_: Sylvain Combettes
 - _Dates_: June 24th – Sept. 13th, 2019 (3 months)
